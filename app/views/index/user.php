@@ -17,7 +17,16 @@
             echo $review['date'];
          ?>
     </div>
-</div>    
-<?php endforeach; 
+</div>
+<?php endforeach; ?>
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6 form-stl pd-mr" >
+        <button type="button" class="btn btn-primary">Попередній перегляд</button>
+        <button type="button" class="btn btn-success">Відправити</button>
+
+    </div>
+</div>
+<?php
     $this->generateForm();
 ?>

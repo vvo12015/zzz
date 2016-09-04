@@ -7,11 +7,13 @@
                 <input type="text" class="form-control pd-mr" id="name" value="<?php echo $data['name'];?>">
                 <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
                 <input type="email" class="form-control pd-mr" id="inputEmail3" value="<?php echo $data['email'];?>">
+                <?php if ($status_admin):?>
                 <label for="input_date" class="col-sm-10 control-label">Дата створення повідомлення</label>
                 <input type="date" name="date_create" 
                        class="form-control pd-mr"
                        id="input_date"
                        value="<?php echo $data['date_create'];?>"/>
+                <?php endif;?>
                 <label for="message" class="col-sm-2 control-label">Повідомлення</label>
                 <textarea name="text" class = "form-control pd-mr" id="message"><?php echo $data['text'];?></textarea>
             </div>

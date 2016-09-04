@@ -12,16 +12,9 @@ class View {
         return $this->title;
     }
 
-    function generate($content_view, $layout, $data = null)
-	{
-		/*
-		if(is_array($data)) {
-			// преобразуем элементы массива в переменные
-			extract($data);
-		}
-		*/
+    function generate($content_view, $layout, $data = null){
 		include ROOT . DS . '/app/layouts/'.$layout.'.php';
-	}
+    }
     
     function generateForm($data = null, $status_admin = false){
         include ROOT . DS . '/app/layouts/layoutForm.php';
