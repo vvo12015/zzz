@@ -17,6 +17,9 @@
     font-size: 22px;
 }
 
+.hiddenDiv{
+    display: none;
+}
 header {
    
     padding: 10px;

@@ -56,7 +56,8 @@
         ?>
     </body>
 </html>
-
+    
+    <script src="../../js\myScript.js"></script>
     <script src="../../js\jquery-3.1.0.min.js"></script>
     <script src="../../js\bootstrap.min.js"></script>
     <script src="../../js\bootstrap.js"></script>
