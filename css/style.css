@@ -1,0 +1,41 @@
+.error{
+	color: red;
+}
+.sku {
+    color: grey;
+}
+
+.product {
+    border: dotted 1px gray;
+    margin:20px;
+	margin-right : 40%;
+    padding: 20px;
+}
+
+.price {
+    color: red;
+    font-size: 22px;
+}
+
+header {
+   
+    padding: 10px;
+    text-align: right;
+}
+.user-msg {
+    background-color: aliceblue;
+}
+.form-stl{
+    background-color: beige;
+}
+.filtr-msg{
+    background-color: lemonchiffon;
+}
+.pd-mr {
+    margin: 10px;
+    padding: 10px;
+}
+.head-ttl{
+    font-family: monospace;
+    color: dimgrey;
+}
